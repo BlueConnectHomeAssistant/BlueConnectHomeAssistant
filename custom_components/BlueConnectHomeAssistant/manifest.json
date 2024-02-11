@@ -1,0 +1,16 @@
+{
+  "domain": "blueconnectha_ble",
+  "name": "Blue Connect Bluetooth",
+  "bluetooth": [
+    {
+      "manufacturer_id": 465,
+      "service_uuid": "f3300001-f0a2-9b06-0c59-1bc4763b5c00"
+    }
+  ],
+  "codeowners": ["@danps"],
+  "config_flow": true,
+  "dependencies": ["bluetooth_adapters"],
+  "documentation": "https://www.home-assistant.io/integrations/blueconnectha_ble",
+  "iot_class": "local_push",
+  "requirements": ["blueconnectha-ble==2.4.1"]
+}
